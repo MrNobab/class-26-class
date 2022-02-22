@@ -1,4 +1,23 @@
 
+/* blog section cssss */
+.blog-title-head{}
+.blog-title-head h6{
+    color: #5f81ef;
+}
+.blog-title-head h2{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+}
+.blog-title-head h2::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 15%;
+    background-color: #5f81ef;
+    left: 0;
+    bottom: -25px; 
+}
 
 .text-color{
     color: #606060;
